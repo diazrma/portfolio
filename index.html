@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rodrigo Cardoso · Desenvolvedor Backend Magento 2</title>
+    <meta
+      name="description"
+      content="Rodrigo Cardoso da Luz, desenvolvedor backend especializado em Magento 2 e PHP: arquitetura de e-commerce, integrações, performance e ferramentas para desenvolvedores."
+    />
+    <meta name="author" content="Rodrigo Cardoso da Luz" />
+    <meta name="theme-color" content="#040b15" />
+    <meta property="og:type" content="profile" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:title" content="Rodrigo Cardoso · Desenvolvedor Backend Magento 2" />
+    <meta
+      property="og:description"
+      content="Arquitetura de e-commerce, integrações e performance com Magento 2 e PHP."
+    />
+    <meta property="og:url" content="https://diazrma.github.io/" />
+    <meta property="og:image" content="https://diazrma.github.io/assets/profile.webp" />
+    <link rel="canonical" href="https://diazrma.github.io/" />
+    <meta name="twitter:card" content="summary" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23040b15'/%3E%3Ctext x='50%25' y='54%25' text-anchor='middle' dominant-baseline='middle' font-family='Arial,sans-serif' font-weight='800' font-size='28' fill='%237ef9d6'%3ERC%3C/text%3E%3C/svg%3E"
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Rodrigo Cardoso da Luz",
+        "jobTitle": "Desenvolvedor Backend",
+        "knowsAbout": ["Magento 2", "PHP", "MySQL", "APIs", "Redis", "Docker", "Git", "Linux"],
+        "sameAs": [
+          "https://www.linkedin.com/in/rodrigo-cardoso-da-luz-93795222a/",
+          "https://github.com/diazrma"
+        ]
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="bg-orb orb-one" aria-hidden="true"></div>
+    <div class="bg-orb orb-two" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="brand-wrap" href="#sobre" aria-label="Rodrigo Cardoso, início">
+          <span class="brand-mark" aria-hidden="true">RC</span>
+          <span class="brand-name">Rodrigo Cardoso</span>
+        </a>
+
+        <nav class="menu" id="mainMenu" aria-label="Menu principal">
+          <a href="#sobre-mim">Sobre</a>
+          <a href="#habilidades">Skills</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#processo">Processo</a>
+          <a href="#projetos">Projetos</a>
+        </nav>
+
+        <a class="nav-cta" href="#contato">Contato</a>
+
+        <button class="menu-toggle" id="menuToggle" type="button" aria-controls="mainMenu" aria-expanded="false" aria-label="Abrir menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <div class="page-shell">
+      <main id="conteudo">
+        <section class="hero" id="sobre">
+          <div class="hero-copy reveal">
+            <div class="hero-id">
+              <img class="hero-avatar" src="assets/profile.webp" alt="Foto de Rodrigo Cardoso" width="56" height="56" />
+              <div>
+                <strong>Rodrigo Cardoso</strong>
+                <p class="hero-social">
+                  <a href="https://www.linkedin.com/in/rodrigo-cardoso-da-luz-93795222a/" target="_blank" rel="noreferrer">LinkedIn</a>
+                  <span aria-hidden="true">·</span>
+                  <a href="https://github.com/diazrma" target="_blank" rel="noreferrer">GitHub</a>
+                </p>
+              </div>
+            </div>
+            <p class="eyebrow">Desenvolvedor Backend · Magento 2</p>
+            <h1>
+              Construo <span>soluções robustas</span> para e-commerce e produto digital.
+            </h1>
+            <p class="description">
+              Trabalho com arquitetura de backend, integrações, performance e automatização para
+              manter lojas Magento estáveis, escaláveis e prontas para crescer.
+            </p>
+
+            <div class="cta-row">
+              <a href="#projetos" class="primary-btn">Ver projetos</a>
+              <a href="#sobre-mim" class="secondary-btn">Sobre mim</a>
+            </div>
+
+            <aside class="info-card" id="skillCard" aria-live="polite">
+              <div class="info-head">
+                <p class="panel-kicker">Skill <span id="legIndex">01</span> / 08</p>
+                <span class="info-swatch"></span>
+              </div>
+              <h2 id="skillTitle">Magento</h2>
+              <p id="skillText">
+                Arquitetura de loja, módulos, fluxo de checkout, customizações e estabilidade de negócio.
+              </p>
+              <div class="skill-meter"><span id="skillBar"></span></div>
+              <div class="meter-row"><span>Nível</span><strong id="skillLevel">Especialista</strong></div>
+            </aside>
+          </div>
+
+          <div class="visual reveal" aria-label="Aranha de skills">
+            <div
+              class="spider-stage"
+              id="spiderStage"
+              tabindex="0"
+              aria-label="Aranha 3D: cada pata é uma skill. Arraste para girar, use as setas para trocar de pata."
+            >
+              <svg class="web-bg" id="webBg" viewBox="0 0 640 640" preserveAspectRatio="xMidYMid slice" aria-hidden="true"></svg>
+
+              <div class="spider-world" id="spiderWorld" aria-hidden="true">
+                <span class="marker" id="threadPivot"></span>
+                <div class="holo-floor"><span class="floor-shadow" id="floorShadow"></span></div>
+                <div class="rig" id="spiderRig">
+                  <div class="spider" id="spider"></div>
+                </div>
+              </div>
+
+              <svg class="spider-overlay" id="spiderOverlay" aria-hidden="true"></svg>
+              <div class="leg-labels" id="legLabels"></div>
+
+              <div class="hud hud-tl">SKILL.SPIDER <span>// 08 patas</span></div>
+              <button class="pin-btn" id="pinBtn" type="button" aria-pressed="false">
+                <span class="pin-icon" aria-hidden="true"></span><span class="pin-text">Fixar aranha</span>
+              </button>
+              <div class="hud hud-br" id="hudReadout">MAGENTO · ESPECIALISTA</div>
+              <p class="stage-hint">Arraste para girar · passe o mouse nas patas</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="stats-strip reveal" aria-label="Estatísticas de destaque">
+          <ul class="stats">
+            <li><strong>6+</strong><span>Anos de experiência</span></li>
+            <li><strong>30+</strong><span>Integrações entregues</span></li>
+            <li><strong>24/7</strong><span>Foco em estabilidade</span></li>
+          </ul>
+          <div class="ticker" aria-hidden="true">
+            <div class="ticker-track" id="tickerTrack"></div>
+          </div>
+        </section>
+
+        <section class="section about" id="sobre-mim">
+          <div class="about-photo reveal">
+            <img src="assets/profile.webp" alt="Rodrigo Cardoso da Luz" loading="lazy" width="460" height="460" />
+            <div class="about-photo-tag">
+              <strong>Rodrigo Cardoso da Luz</strong>
+              <span>Backend · Magento 2 · PHP</span>
+            </div>
+          </div>
+
+          <div class="about-copy reveal">
+            <p class="panel-kicker">Sobre mim</p>
+            <h3>Código que mantém a loja de pé. Ideias que vão além do backend.</h3>
+            <p>
+              Sou desenvolvedor backend focado em Magento 2 e PHP. Meu dia a dia é arquitetura de
+              loja, integrações com sistemas externos e performance, para que o e-commerce continue
+              estável enquanto cresce.
+            </p>
+            <p>
+              Também gosto de construir ferramentas para outros devs: um módulo Magento que aponta
+              más práticas no código, extensões de VS Code para o fluxo Magento e extensões de
+              navegador. E, fora do trabalho, experimento com IA e criatividade, como o dorama
+              <a href="#projetos">Miados do Destino</a>.
+            </p>
+            <ul class="about-facts">
+              <li><strong>2013</strong><span>no GitHub desde</span></li>
+              <li><strong>79</strong><span>repositórios públicos</span></li>
+              <li><strong>M2</strong><span>ferramentas p/ Magento</span></li>
+            </ul>
+            <div class="about-links">
+              <a class="primary-btn" href="https://www.linkedin.com/in/rodrigo-cardoso-da-luz-93795222a/" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a class="secondary-btn" href="https://github.com/diazrma" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="habilidades">
+          <div class="section-head reveal">
+            <p class="panel-kicker">Skills</p>
+            <h3>Stack principal.</h3>
+            <p class="section-sub">As tecnologias que uso no dia a dia. Passe o mouse em uma delas para destacar a pata correspondente na aranha.</p>
+          </div>
+          <div class="skills-grid" id="skillsGrid"></div>
+        </section>
+
+        <section class="section" id="servicos">
+          <div class="section-head reveal">
+            <p class="panel-kicker">Serviços</p>
+            <h3>O que eu entrego.</h3>
+          </div>
+
+          <div class="services">
+            <article class="service-card reveal">
+              <span class="service-num">01</span>
+              <h4>Magento sob medida</h4>
+              <p>Módulos, customizações de checkout e regras de negócio construídas para durar e fáceis de manter.</p>
+            </article>
+            <article class="service-card reveal">
+              <span class="service-num">02</span>
+              <h4>Integrações</h4>
+              <p>ERP, CRM, logística e pagamentos conversando com a loja de forma confiável, com filas e monitoramento.</p>
+            </article>
+            <article class="service-card reveal">
+              <span class="service-num">03</span>
+              <h4>Performance &amp; infra</h4>
+              <p>Cache com Redis, consultas otimizadas, ambientes Docker e deploys previsíveis em Linux.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="processo">
+          <div class="section-head reveal">
+            <p class="panel-kicker">Processo</p>
+            <h3>Como eu trabalho.</h3>
+          </div>
+
+          <ol class="process">
+            <li class="process-step reveal">
+              <span class="process-dot"></span>
+              <span class="process-num">01</span>
+              <h4>Diagnóstico</h4>
+              <p>Entendo o negócio, levanto gargalos e meço antes de mexer em qualquer linha.</p>
+            </li>
+            <li class="process-step reveal">
+              <span class="process-dot"></span>
+              <span class="process-num">02</span>
+              <h4>Arquitetura</h4>
+              <p>Desenho a solução pensando em manutenção, escala e no time que vai conviver com ela.</p>
+            </li>
+            <li class="process-step reveal">
+              <span class="process-dot"></span>
+              <span class="process-num">03</span>
+              <h4>Entrega</h4>
+              <p>Código versionado, revisado e publicado em etapas, sem sustos em produção.</p>
+            </li>
+            <li class="process-step reveal">
+              <span class="process-dot"></span>
+              <span class="process-num">04</span>
+              <h4>Acompanhamento</h4>
+              <p>Monitoro, ajusto e documento para a loja continuar estável depois do deploy.</p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="section projects" id="projetos">
+          <div class="section-head reveal">
+            <p class="panel-kicker">Projetos</p>
+            <h3>Projetos em destaque.</h3>
+          </div>
+
+          <article class="project-card miados reveal">
+            <div class="poster">
+              <img class="poster-img" src="assets/miados/naru-yoonari.webp" alt="Naru, a gata frajola, ao lado de Yoo Nari" loading="lazy" width="900" height="900" />
+              <span class="project-badge">Projeto pessoal</span>
+              <div class="poster-info">
+                <img class="poster-logo" src="assets/miados/logo.webp" alt="Miados do Destino" loading="lazy" width="240" height="240" />
+                <p class="poster-meta"><span>8 episódios</span><i></i><span>2026</span><i></i><span>Romance/Drama</span></p>
+              </div>
+              <a class="poster-play" href="https://www.youtube.com/@MiadosdoDestino" target="_blank" rel="noreferrer" aria-label="Assistir no YouTube">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" /></svg>
+              </a>
+            </div>
+
+            <div class="project-copy">
+              <span class="project-label">Projeto pessoal · Dorama feito com IA</span>
+              <h4>Miados do Destino</h4>
+              <blockquote class="project-quote">
+                “Dizem que os gatos veem o que os humanos não conseguem… mas e quando o gato é humano?”
+              </blockquote>
+              <p>
+                O primeiro dorama feito com IA: uma história sobre gatos, família e os mistérios do destino,
+                em que uma noiva descobre segredos do passado através de um gato misterioso. Um projeto
+                autoral que junta roteiro, direção e produção com IA generativa, com episódios no
+                YouTube, site próprio e perfil no Instagram.
+              </p>
+              <dl class="project-meta">
+                <div><dt>Formato</dt><dd>Dorama · 8 episódios</dd></div>
+                <div><dt>Gênero</dt><dd>Romance / Drama</dd></div>
+                <div><dt>Direção</dt><dd>Rodrigo Cardoso</dd></div>
+              </dl>
+              <div class="project-links">
+                <a class="project-link primary" href="https://miados-do-destino.vercel.app" target="_blank" rel="noreferrer">Ver o site →</a>
+                <a class="project-link" href="https://www.youtube.com/@MiadosdoDestino" target="_blank" rel="noreferrer">YouTube</a>
+                <a class="project-link" href="https://www.instagram.com/miadosdodestino/" target="_blank" rel="noreferrer">Instagram</a>
+              </div>
+            </div>
+
+            <div class="cast">
+              <p class="cast-title">Elenco <span>· personagens criados com IA</span></p>
+              <ul class="cast-list">
+                <li class="cast-item" tabindex="0">
+                  <img src="assets/miados/char-1.webp" alt="Yoo Nari, protagonista" loading="lazy" width="520" height="347" />
+                  <span class="cast-name">Yoo Nari</span>
+                  <span class="cast-role">Protagonista</span>
+                  <span class="cast-desc">Uma noiva que descobre segredos do passado através de um gato misterioso.</span>
+                </li>
+                <li class="cast-item" tabindex="0">
+                  <img src="assets/miados/char-2.webp" alt="Sr Baek, antagonista" loading="lazy" width="520" height="347" />
+                  <span class="cast-name">Sr Baek</span>
+                  <span class="cast-role">Antagonista</span>
+                  <span class="cast-desc">Marido de Yoo Nari, um homem que carrega culpas de decisões passadas e segredos sombrios.</span>
+                </li>
+                <li class="cast-item" tabindex="0">
+                  <img src="assets/miados/char-3.webp" alt="Naru, gata misteriosa" loading="lazy" width="520" height="347" />
+                  <span class="cast-name">Naru</span>
+                  <span class="cast-role">Gata Misteriosa</span>
+                  <span class="cast-desc">Frajola de nariz preto e patinhas brancas, parece saber mais sobre o passado do que demonstra.</span>
+                </li>
+                <li class="cast-item" tabindex="0">
+                  <img src="assets/miados/char-4.webp" alt="Zelda, aliada estratégica" loading="lazy" width="520" height="347" />
+                  <span class="cast-name">Zelda</span>
+                  <span class="cast-role">Aliada Estratégica</span>
+                  <span class="cast-desc">A mente estratégica da história, mantém tudo sob controle com calma e inteligência.</span>
+                </li>
+                <li class="cast-item" tabindex="0">
+                  <img src="assets/miados/char-5.webp" alt="Merlin, gato guardião" loading="lazy" width="520" height="347" />
+                  <span class="cast-name">Merlin</span>
+                  <span class="cast-role">Gato Guardião</span>
+                  <span class="cast-desc">Observa os acontecimentos e parece proteger Yoo Nari de forças invisíveis.</span>
+                </li>
+                <li class="cast-item" tabindex="0">
+                  <img src="assets/miados/char-6.webp" alt="Spark, observador silencioso" loading="lazy" width="520" height="347" />
+                  <span class="cast-name">Spark</span>
+                  <span class="cast-role">Observador Silencioso</span>
+                  <span class="cast-desc">Observa tudo em silêncio, sempre presente nos momentos decisivos.</span>
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <div class="oss">
+            <div class="oss-head reveal">
+              <div>
+                <p class="panel-kicker">Open source</p>
+                <h4>Ferramentas e experimentos no GitHub.</h4>
+              </div>
+              <a class="secondary-btn" href="https://github.com/diazrma?tab=repositories" target="_blank" rel="noreferrer">Ver todos os repositórios →</a>
+            </div>
+            <div class="repo-grid">
+            <a class="repo-card reveal" href="https://github.com/diazrma/DevHelperCodeScanner" target="_blank" rel="noreferrer" style="--c:#8f8bff">
+              <span class="repo-top"><span class="repo-icon" aria-hidden="true">&lt;/&gt;</span><span class="repo-stars">★ 2</span></span>
+              <strong>DevHelperCodeScanner</strong>
+              <p>Módulo Magento 2 com comando CLI que varre o app/code e aponta más práticas: ObjectManager direto, instanciação com new e outros problemas comuns.</p>
+              <span class="repo-foot"><span class="repo-lang"><i></i>PHP</span><span>Magento 2 · CLI</span></span>
+            </a>
+            <a class="repo-card reveal" href="https://github.com/diazrma/m2codereview" target="_blank" rel="noreferrer" style="--c:#ffd24d">
+              <span class="repo-top"><span class="repo-icon" aria-hidden="true">&lt;/&gt;</span></span>
+              <strong>m2codereview</strong>
+              <p>Extensão para VS Code que roda análise de qualidade de código em projetos Magento 2 direto do editor.</p>
+              <span class="repo-foot"><span class="repo-lang"><i></i>JavaScript</span><span>VS Code · Magento 2</span></span>
+            </a>
+            <a class="repo-card reveal" href="https://github.com/diazrma/mcacheclean" target="_blank" rel="noreferrer" style="--c:#ffd24d">
+              <span class="repo-top"><span class="repo-icon" aria-hidden="true">&lt;/&gt;</span></span>
+              <strong>mcacheclean</strong>
+              <p>Extensão VS Code que limpa var/, generated/ e pub/static do Magento com um atalho de teclado.</p>
+              <span class="repo-foot"><span class="repo-lang"><i></i>JavaScript</span><span>VS Code · Produtividade</span></span>
+            </a>
+            <a class="repo-card reveal" href="https://github.com/diazrma/Imagecheck" target="_blank" rel="noreferrer" style="--c:#ffd24d">
+              <span class="repo-top"><span class="repo-icon" aria-hidden="true">&lt;/&gt;</span><span class="repo-stars">★ 3</span></span>
+              <strong>Imagecheck</strong>
+              <p>Extensão do Chrome que mostra a resolução das imagens da página para otimizar carregamento e qualidade.</p>
+              <span class="repo-foot"><span class="repo-lang"><i></i>JavaScript</span><span>Chrome · Performance</span></span>
+            </a>
+            <a class="repo-card reveal" href="https://github.com/diazrma/Guerra-Cultural-Simulador-de-Narrativas" target="_blank" rel="noreferrer" style="--c:#ff7a3d">
+              <span class="repo-top"><span class="repo-icon" aria-hidden="true">&lt;/&gt;</span></span>
+              <strong>Guerra Cultural: Simulador de Narrativas</strong>
+              <p>Simulação em Canvas + JS puro de como narrativas competem pela mente de uma população, com estética cyberpunk.</p>
+              <span class="repo-foot"><span class="repo-lang"><i></i>HTML</span><span>Canvas · Simulação</span></span>
+            </a>
+            <a class="repo-card reveal" href="https://github.com/diazrma/mindspark" target="_blank" rel="noreferrer" style="--c:#ff7a3d">
+              <span class="repo-top"><span class="repo-icon" aria-hidden="true">&lt;/&gt;</span></span>
+              <strong>MindSpark</strong>
+              <p>Brainstorm digital: ideias viram bolas coloridas interativas que se conectam, recebem votos e se organizam.</p>
+              <span class="repo-foot"><span class="repo-lang"><i></i>HTML</span><span>Canvas · Interativo</span></span>
+            </a>
+            </div>
+          </div>
+
+          <a class="next-project reveal" href="https://github.com/diazrma?tab=repositories" target="_blank" rel="noreferrer">
+            <span class="next-plus" aria-hidden="true">+</span>
+            <span>
+              <strong>Tem mais no GitHub.</strong>
+              <small>São 79 repositórios públicos entre ferramentas, estudos e experimentos.</small>
+            </span>
+            <span class="next-arrow" aria-hidden="true">→</span>
+          </a>
+        </section>
+      </main>
+
+      <footer class="footer" id="contato">
+        <div class="contact-panel reveal">
+          <p class="panel-kicker">Contato</p>
+          <h3>Vamos conversar.</h3>
+          <p>Quer trocar uma ideia sobre Magento, backend ou algum dos meus projetos? Me encontre nas redes abaixo.</p>
+
+          <div class="contact-links">
+            <a class="contact-link" href="https://www.linkedin.com/in/rodrigo-cardoso-da-luz-93795222a/" target="_blank" rel="noreferrer">
+              <span class="contact-icon">in</span>
+              <span><strong>LinkedIn</strong><small>Rodrigo Cardoso da Luz</small></span>
+            </a>
+            <a class="contact-link" href="https://github.com/diazrma" target="_blank" rel="noreferrer">
+              <span class="contact-icon">&lt;/&gt;</span>
+              <span><strong>GitHub</strong><small>@diazrma</small></span>
+            </a>
+          </div>
+        </div>
+        <div class="footer-bar">
+          <span>© <span id="year">2026</span> Rodrigo Cardoso da Luz · Feito com HTML, CSS e JavaScript puro</span>
+          <a href="#sobre">Voltar ao topo ↑</a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
